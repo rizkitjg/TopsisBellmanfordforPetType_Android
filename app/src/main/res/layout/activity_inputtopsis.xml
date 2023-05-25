@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InputTopsisActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_arrow_left_solid_2" />
+
+        <TextView
+            android:id="@+id/teksjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Silahkan pilih kriteria Pet yang Anda inginkan"
+            android:textColor="@color/colorGreen"
+            android:textSize="28dp"
+            android:paddingBottom="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorGreen"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingLeft="4dp"
+            android:paddingBottom="12dp"
+            android:textSize="20sp"
+            android:text="Ukuran hewan"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_1"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <RadioButton
+                android:id="@+id/pilihan1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Besar"/>
+
+            <RadioButton
+                android:id="@+id/pilihan1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sedang"/>
+
+            <RadioButton
+                android:id="@+id/pilihan1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kecil"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorGreen"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:textSize="20sp"
+            android:text="Harga hewan"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_2"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <RadioButton
+                android:id="@+id/pilihan2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">Rp.500.000"/>
+
+            <RadioButton
+                android:id="@+id/pilihan2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.200.001 - Rp.500.000"/>
+
+            <RadioButton
+                android:id="@+id/pilihan2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.51.000 - Rp.200.000"/>
+
+            <RadioButton
+                android:id="@+id/pilihan2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.0 - Rp.50.000"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorGreen"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:textSize="20sp"
+            android:text="Ukuran kandang hewan"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_3"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <RadioButton
+                android:id="@+id/pilihan3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Besar"/>
+
+            <RadioButton
+                android:id="@+id/pilihan3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sedang"/>
+
+            <RadioButton
+                android:id="@+id/pilihan3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kecil"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorGreen"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:textSize="20sp"
+            android:text="Biaya pemeliharaan"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_4"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <RadioButton
+                android:id="@+id/pilihan4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">Rp.300.001"/>
+
+            <RadioButton
+                android:id="@+id/pilihan4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.150.001-Rp.300.000"/>
+
+            <RadioButton
+                android:id="@+id/pilihan4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.50.001-Rp.150.000"/>
+
+            <RadioButton
+                android:id="@+id/pilihan4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.0-Rp.50.000"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorGreen"
+            android:fontFamily="@font/poppins_bold"
+            android:paddingBottom="12dp"
+            android:paddingLeft="4dp"
+            android:textSize="20sp"
+            android:text="Umur maksimal"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_5"
+            android:layout_centerVertical="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <RadioButton
+                android:id="@+id/pilihan5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-5 tahun"/>
+
+            <RadioButton
+                android:id="@+id/pilihan5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6-10 tahun"/>
+
+            <RadioButton
+                android:id="@+id/pilihan5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11-20 tahun"/>
+
+            <RadioButton
+                android:id="@+id/pilihan5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20+ tahun"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hasil" >
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>

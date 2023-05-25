@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Cari Pet Kuy</string>
+
+    <string name="start">Temukan</string>
+
+    <string name="listDescription">Touch items to delete</string>
+
+    <string name="dropdownFromWhere">Node awal</string>
+    <string name="dropdownToWhere">Node akhir</string>
+    <string name="dropdownAvoid">Avoid these edges</string>
+
+    <string name="back">Back</string>
+
+    <string name="startPoint">"Start Point - "</string>
+
+    <string name="error_nothing_selected">Pilih node awal dan node akhir</string>
+    <string name="error_path">Error in path calculation</string>
+    <string name="error_already_avoided"> is already avoided</string>
+    <string name="error_memory">Low Memory</string>
+
+    <string name="title_activity_maps">GMap</string>
+
+    <string name="help">1. Pilih menu yang ingin dijalankan\n2.Jika menu yang dipilih adalah menu pemilihan rekomendasi pet, user diminta untuk memilih kriteria pet yang diinginkan. Selanjutnya sistem akan melakukan proses pemilihan pet berdasarkan metode TOPSIS.\n3.Jika menu yang dipilih adalah mencari lokasi pet shop, user diminta untuk memilih node awal dan node akhir yang mana merupakan lokasi toko-toko penjualan pet. Selanjutnya sistem akan melakukan pencarian jalan terpendek dengan menggunakan algoritma Bellman-Ford.\n5. Jika user memilih menu list pet shop, maka akan ditampilkan daftar pet shop. </string>
+    <string name="petshop_name">Nama PetShop</string>
+    <string name="address">Alamat PetShop</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/drawable/button_primary.xml" value="0.23333333333333334" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/drawable/ic_arrow_left_solid_2.xml" value="0.12447916666666667" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/drawable/list.xml" value="0.13177083333333334" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/drawable/list2.xml" value="0.1" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/font/poppins_bold.xml" value="0.23333333333333334" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_hasiltopsis.xml" value="0.264" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_help.xml" value="0.264" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_inputnodes.xml" value="0.264" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_inputtopsis.xml" value="0.1" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_maps.xml" value="0.12360688956433637" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_petshopdetail.xml" value="0.136" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_petshoplist.xml" value="0.2" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/activity_splash_screen.xml" value="0.13858695652173914" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/item_rank.xml" value="0.115625" />
+        <entry key="..\:/Proyek/Android/BFTopsis/app/src/main/res/layout/item_row_petshop.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis 1/app/src/main/res/layout/activity_petshopdetail.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_hasiltopsis.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_help.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_inputnodes.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_inputtopsis.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_maps.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_petshopdetail.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_petshoplist.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/activity_splash_screen.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/item_rank.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Asus/Desktop/SKRIPSI/program/BFTopsis/app/src/main/res/layout/item_row_petshop.xml" value="0.13020833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14_PREVIEW" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

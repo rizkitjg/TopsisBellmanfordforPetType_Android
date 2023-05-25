@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    tools:context=".HasilTopsisActivity">
+
+    <ImageView
+        android:id="@+id/buttonBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_arrow_left_solid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Kembali ke Halaman Utama"
+        android:textColor="@color/colorWhite"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@id/buttonBack"
+        app:layout_constraintStart_toEndOf="@id/buttonBack"
+        app:layout_constraintTop_toTopOf="@id/buttonBack" />
+
+    <TextView
+        android:id="@+id/userRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Nilai preferensi User: 99"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="@id/buttonBack"
+        app:layout_constraintTop_toBottomOf="@id/buttonBack" />
+
+    <TextView
+        android:id="@+id/titleRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Ranking Pet"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="@id/userRanking"
+        app:layout_constraintTop_toBottomOf="@id/userRanking" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_rank"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleRanking" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
